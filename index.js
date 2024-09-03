@@ -44,7 +44,14 @@ function addMessage(sender, text) {
                 body: JSON.stringify({
                     model: "gpt-3.5-turbo", // Modelo de chat
                     messages: [
-                        { role: "user", content: message } // Estrutura de mensagem no endpoint de chat
+                        {
+                            role: "system",
+                            content: "Você é um instrutor de idiomas experiente. Ajude o usuário a aprender o idioma escolhido respondendo às perguntas, corrigindo erros, e fornecendo explicações claras."
+                        },
+                        {
+                            role: "user",
+                            content: message // Substitua 'message' pelo conteúdo da pergunta do usuário
+                        }
                     ],
                     max_tokens: 2048, // Tamanho da resposta
                     temperature: 0.5 // Criatividade na resposta
