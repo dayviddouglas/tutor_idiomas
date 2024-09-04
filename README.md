@@ -1,8 +1,8 @@
-# Tutor de Idiomas - Chatbot para Aprendizado de Idiomas
-Bem-vindo ao projeto Tutor de Idiomas! Este é um chatbot desenvolvido para auxiliar no aprendizado de idiomas, utilizando a API da OpenAI para gerar conversas em tempo real em diferentes idiomas.
+# Write 'n' Learn - Chatbot para Aprendizado de Idiomas
+Bem-vindo ao projeto Write 'n' Learn! Este é um chatbot desenvolvido para auxiliar no aprendizado de idiomas, utilizando a API da OpenAI para gerar conversas em tempo real em diferentes idiomas.
 
 ## Descrição
-O Tutor de Idiomas é um chatbot que simula conversas em vários idiomas, permitindo que os usuários pratiquem suas habilidades linguísticas. Ele pode ser utilizado para diálogos básicos, perguntas frequentes, ou até mesmo para praticar gramática e vocabulário.
+O Write 'n' Learn é um chatbot que simula conversas em vários idiomas, permitindo que os usuários pratiquem suas habilidades linguísticas. Ele pode ser utilizado para diálogos básicos, perguntas frequentes, ou até mesmo para praticar gramática e vocabulário.
 
 ## Funcionalidades
 
