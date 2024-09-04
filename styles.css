@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,7 @@ body {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-size: 12px;
 }
 
 .chat-box {
@@ -58,12 +59,20 @@ body {
 
 .message {
     margin-bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
 }
 
 .message.user {
     text-align: right;
+    background-color:#1d4ed8;
+    
 }
 
 .message.bot {
     text-align: left;
+    background-color:#60a5fa;
+    
 }
